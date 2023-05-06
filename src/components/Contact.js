@@ -1,8 +1,8 @@
 
 function Contact(props) {
     return (
-        <div>
-            <h1>Contact Me</h1>
+        <div className="bg-secondary">
+            <h1 className="text-light text-center">Contact Me</h1>
             <a href="https://www.linkedin.com/in/logankaufman/">
             <img src={props.img} alt="LinkedInLogo" />
             </a>

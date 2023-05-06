@@ -9,18 +9,13 @@ import linkedInLogo from '../img/linkedinlogo.png'
 
 function Home(props) {
     return (
-        <div>
+        <div className='container-fluid'>
             <Nav />
             <Start />
-            <br />
             <About />
-            <br />
             <Project />
-            <br />
             <Education />
-            <br />
             <Skill />
-            <br />
             <Contact img={linkedInLogo}/>
         </div>
     )

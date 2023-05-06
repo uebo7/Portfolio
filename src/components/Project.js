@@ -7,6 +7,7 @@ import PlayerCollector from '../img/playercollector.png'
 function Project(props) {
     return (
         <div>
+            <h1 className="text-light bg-dark">My Projects</h1>
             <Work 
                 name='Quote Generator' 
                 img={Quote} 
