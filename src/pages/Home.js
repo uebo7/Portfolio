@@ -5,17 +5,23 @@ import Nav from '../components/Nav'
 import Project from '../components/Project'
 import Skill from '../components/Skill'
 import Start from '../components/Start'
+import linkedInLogo from '../img/linkedinlogo.png'
 
 function Home(props) {
     return (
         <div>
             <Nav />
             <Start />
+            <br />
             <About />
+            <br />
             <Project />
+            <br />
             <Education />
+            <br />
             <Skill />
-            <Contact />
+            <br />
+            <Contact img={linkedInLogo}/>
         </div>
     )
 }
