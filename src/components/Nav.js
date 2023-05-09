@@ -35,11 +35,6 @@ function Nav(props) {
                                 <button className='btn btn-dark'>Skills</button>
                             </Link>
                         </li>
-                        <li className='nav-item'> 
-                            <Link to='/contact' className='nav-link active link-info'>
-                                <button className='btn btn-dark'>Contact Me Here</button>
-                            </Link> 
-                        </li>
                     </ul>
                 </div>
             </nav>

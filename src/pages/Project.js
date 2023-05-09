@@ -1,13 +1,14 @@
-import Work from "./Work"
+import Work from "../components/Work"
 import LinkedInImg from '../img/Profile.png'
 import Quote from '../img/Quote.png'
 import JobBoard from '../img/jobboard.png'
 import PlayerCollector from '../img/playercollector.png'
-import Nav from './Nav'
+import Nav from '../components/Nav'
+import Footer from '../components/Footer'
 
 function Project(props) {
     return (
-        <div>
+        <div className="container-fluid">
             <Nav />
             <h1 className="text-light bg-dark">My Projects</h1>
             <Work 
@@ -38,6 +39,7 @@ function Project(props) {
                 git='https://github.com/uebo7/LinkedInProfilePage.git' 
                 link='https://linkedinprofile-0425.herokuapp.com/' 
             />
+            <Footer />
         </div>
     )
 }
