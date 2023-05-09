@@ -3,10 +3,12 @@ import LinkedInImg from '../img/Profile.png'
 import Quote from '../img/Quote.png'
 import JobBoard from '../img/jobboard.png'
 import PlayerCollector from '../img/playercollector.png'
+import Nav from './Nav'
 
 function Project(props) {
     return (
         <div>
+            <Nav />
             <h1 className="text-light bg-dark">My Projects</h1>
             <Work 
                 name='Quote Generator' 
