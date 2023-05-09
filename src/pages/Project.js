@@ -1,7 +1,8 @@
 import Work from "../components/Work"
 import LinkedInImg from '../img/Profile.png'
 import Quote from '../img/Quote.png'
-import JobBoard from '../img/jobboard.png'
+import JobBoardFront from '../img/jobboard.png'
+import JobBoardBack from '../img/jobboardback.png'
 import PlayerCollector from '../img/playercollector.png'
 import Nav from '../components/Nav'
 import Footer from '../components/Footer'
@@ -19,12 +20,13 @@ function Project(props) {
             />
             <Work 
                 name='Job Board FrontEnd' 
-                img={JobBoard} 
+                img={JobBoardFront} 
                 git='https://github.com/dition24/career-call-frontend.git' 
                 link='https://illustrious-twilight-bf2d81.netlify.app/' 
             />
             <Work 
                 name='Job Board BackEnd'  
+                img={JobBoardBack}
                 git='https://github.com/dition24/career-call-backend.git'  
             />
             <Work 

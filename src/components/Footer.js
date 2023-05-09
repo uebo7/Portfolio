@@ -4,7 +4,9 @@ function Footer(props) {
     return (
         <div className="bg-dark border text-center">
             <Link to='/contact' className='nav-link active link-info'>
-                <button className='btn btn-dark'>Contact Me Here</button>
+                <button className='btn btn-dark'>
+                    <h3>Contact Me Here</h3>
+                </button>
             </Link>     
         </div>
     )

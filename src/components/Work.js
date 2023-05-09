@@ -7,6 +7,7 @@ function Work(props) {
            <p>{props.desc}</p>
            <a href={props.link} className="btn btn-primary">Live Project</a>
            <a href={props.git} className="btn btn-primary">Repo</a>
+           <br />
         </div>
     )
 }
