@@ -5,10 +5,12 @@ function Contact(props) {
     return (
         <div className="bg-dark container-fluid">
             <Nav />
-            <h1 className="text-light text-center">Contact Me</h1>
-            <a href="https://www.linkedin.com/in/logankaufman/">
-                <img src={props.img} alt={props.name} />
-            </a>
+            <h1 className="text-light text-center m-3">Contact Me</h1>
+            <div className="text-center m-5">
+                <a href="https://www.linkedin.com/in/logankaufman/">
+                    <img className='linkedin m-5' src={props.img} alt={props.name} />
+                </a>
+            </div>
             <Footer />
         </div>
     )

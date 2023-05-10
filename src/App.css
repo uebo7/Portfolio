@@ -1,13 +1,26 @@
+html, body, div#root, .App, .container-fluid {
+  height: 100%;
+  margin: 0;
+}
+
 body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh
+  padding-top: 100px;
 }
 
-main {
-  flex-grow: 1;
+.project {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
 }
 
-img {
-  width: 800px;
+.ProfPic {
+  width: 350px;
+  height: 400px;
+  border-radius: 50%;
+}
+
+.linkedin {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
 }
