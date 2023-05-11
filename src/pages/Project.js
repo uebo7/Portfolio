@@ -11,36 +11,44 @@ function Project(props) {
     return (
         <div className="container-fluid">
             <Nav />
-            <h1 className="text-light bg-dark">My Projects</h1>
-            <Work 
-                name='Quote Generator' 
-                img={Quote} 
-                git='https://github.com/uebo7/P1-Quote-generator.git' 
-                link='https://uebo7.github.io/P1-Quote-generator/' 
-            />
-            <Work 
-                name='Job Board FrontEnd' 
-                img={JobBoardFront} 
-                git='https://github.com/dition24/career-call-frontend.git' 
-                link='https://illustrious-twilight-bf2d81.netlify.app/' 
-            />
-            <Work 
-                name='Job Board BackEnd'  
-                img={JobBoardBack}
-                git='https://github.com/dition24/career-call-backend.git'  
-            />
-            <Work 
-                name='PlayerCollector' 
-                img={PlayerCollector} 
-                git='https://github.com/uebo7/playercollector.git' 
-                link='https://playercollector.herokuapp.com/' 
-            />
-            <Work 
-                name='LinkedIn Profile' 
-                img={LinkedInImg} 
-                git='https://github.com/uebo7/LinkedInProfilePage.git' 
-                link='https://linkedinprofile-0425.herokuapp.com/' 
-            />
+            <h1 className="text-light text-center bg-dark">My Projects</h1>
+            <div className="row">
+                <div className="col-4">
+                    <Work 
+                    name='Quote Generator' 
+                    img={Quote} 
+                    git='https://github.com/uebo7/P1-Quote-generator.git' 
+                    link='https://uebo7.github.io/P1-Quote-generator/' 
+                    />
+                    <Work 
+                        name='Job Board FrontEnd' 
+                        img={JobBoardFront} 
+                        git='https://github.com/dition24/career-call-frontend.git' 
+                        link='https://illustrious-twilight-bf2d81.netlify.app/' 
+                    />
+                </div>
+                <div className="col-4">
+                    <Work 
+                        name='Job Board BackEnd'  
+                        img={JobBoardBack}
+                        git='https://github.com/dition24/career-call-backend.git'  
+                    />
+                    <Work 
+                        name='PlayerCollector' 
+                        img={PlayerCollector} 
+                        git='https://github.com/uebo7/playercollector.git' 
+                        link='https://playercollector.herokuapp.com/' 
+                    />
+                </div>
+                <div className="col-4">
+                    <Work 
+                        name='LinkedIn Profile' 
+                        img={LinkedInImg} 
+                        git='https://github.com/uebo7/LinkedInProfilePage.git' 
+                        link='https://linkedinprofile-0425.herokuapp.com/' 
+                    />
+                </div>
+            </div>
             <Footer />
         </div>
     )

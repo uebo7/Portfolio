@@ -5,6 +5,7 @@ html, body, div#root, .App, .container-fluid {
 
 body {
   padding-top: 100px;
+  background-color: #212529;
 }
 
 .project {
