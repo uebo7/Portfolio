@@ -1,6 +1,6 @@
 import Nav from '../components/Nav'
 import Footer from '../components/Footer'
-import ProfPic from '../img/profilepic.png'
+import PortfolioLogo from '../img/portfoliologo.jpeg'
 
 function Start(props) {
     return (
@@ -10,7 +10,7 @@ function Start(props) {
                 <h1 className="m-5 text-light">Logan Kaufman</h1>
                 <h1 className="m-5 text-light">Software Developer</h1>
                 <div className='text-center'>
-                    <img className='img-responsive ProfPic text-center m-5' src={ProfPic} alt="Profile" />
+                    <img className='img-responsive ProfPic text-center' src={PortfolioLogo} alt="Profile" />
                 </div>
             </div>
             <Footer />

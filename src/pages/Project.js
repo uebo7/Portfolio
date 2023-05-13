@@ -9,10 +9,10 @@ import Footer from '../components/Footer'
 
 function Project(props) {
     return (
-        <div className="container-fluid">
+        <div className="container-fluid bg-secondary">
             <Nav />
-            <h1 className="text-light text-center bg-dark">My Projects</h1>
-            <div className="row">
+            <h1 className="text-light text-center bg-secondary">My Projects</h1>
+            <div className="row bg-secondary">
                 <div className="col-4">
                     <Work 
                     name='Quote Generator' 
