@@ -10,9 +10,10 @@ function Start(props) {
                 <h1 className="m-5 text-light">Logan Kaufman</h1>
                 <h1 className="m-5 text-light">Software Developer</h1>
                 <div className='text-center'>
-                    <img className='img-responsive ProfPic text-center' src={PortfolioLogo} alt="Profile" />
+                    <img className='img-fluid ProfPic text-center' src={PortfolioLogo} alt="Profile" />
                 </div>
             </div>
+            <div className='m-5'></div>
             <Footer />
         </div>
     )

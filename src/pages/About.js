@@ -23,9 +23,10 @@ function About(props) {
                     I enjoy front end development and css design, and I am interested in fullstack developement.</h3>
                 </div>
                 <div className='text-center bg-dark col-6'>
-                    <img className='img-responsive ProfPic text-center' src={ProfPic} alt="Profile" />
+                    <img className='img-fluid ProfPic text-center' src={ProfPic} alt="Profile" />
                 </div>
             </div>
+            <div className='m-5'></div>
             <Footer />
         </div>
     )

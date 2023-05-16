@@ -13,7 +13,7 @@ function Project(props) {
             <Nav />
             <h1 className="text-light text-center bg-secondary">My Projects</h1>
             <div className="row bg-secondary pb-5">
-                <div className="col-4 pb-2">
+                <div className="col-md-4 pb-2">
                     <Work 
                     name='Quote Generator' 
                     img={Quote} 
@@ -27,7 +27,7 @@ function Project(props) {
                         link='https://illustrious-twilight-bf2d81.netlify.app/' 
                     />
                 </div>
-                <div className="col-4 pb-2">
+                <div className="col-md-4 pb-2">
                     <Work 
                         name='Job Board BackEnd'  
                         img={JobBoardBack}
@@ -40,7 +40,7 @@ function Project(props) {
                         link='https://playercollector.herokuapp.com/' 
                     />
                 </div>
-                <div className="col-4 pb-2">
+                <div className="col-md-4 pb-2">
                     <Work 
                         name='LinkedIn Profile' 
                         img={LinkedInImg} 
@@ -48,6 +48,7 @@ function Project(props) {
                         link='https://linkedinprofile-0425.herokuapp.com/' 
                     />
                 </div>
+                <div className='m-5'></div>
                 <Footer />
             </div>
         </div>

@@ -12,6 +12,7 @@ body {
   width: 500px;
   height: 500px;
   border-radius: 50%;
+  object-fit: cover;
 }
 
 .ProfPic {
@@ -25,4 +26,8 @@ body {
   width: 100px;
   height: 100px;
   border-radius: 50%;
+}
+
+h3 {
+  font-size: 2vw;
 }

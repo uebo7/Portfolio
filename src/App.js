@@ -8,6 +8,7 @@ import Skill from './pages/Skill'
 import Start from './pages/Start'
 import LinkedInImg from './img/linkedinlogo.png'
 
+
 function App() {
   return (
     <div className="App">
