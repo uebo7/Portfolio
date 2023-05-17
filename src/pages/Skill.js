@@ -19,8 +19,8 @@ function Skill() {
                     <div className='text-light'>
                         {showSkills && 
                             <ul className='list-group m-1'>
-                                    <h3 className='list-group-item m-1'>HTML</h3>
-                                    <h3 className='list-group-item m-1'>Github</h3>  
+                                    <h3 className='list-group-item m-4'>HTML</h3>
+                                    <h3 className='list-group-item m-4'>Github</h3>  
                             </ul>
                         }
                     </div>
@@ -30,10 +30,10 @@ function Skill() {
                     <div className="text-light" >
                         {showCss && 
                             <ul className='list-group m-1'>
-                                <li className='list-group-item m-1'>
+                                <li className='list-group-item m-4'>
                                     <h3>Bootstrap</h3>
                                 </li>
-                                <li className='list-group-item m-1'>
+                                <li className='list-group-item m-4'>
                                     <h3>Materialize</h3>
                                 </li>
                             </ul>
@@ -45,13 +45,13 @@ function Skill() {
                     <div className="text-light">
                         {showJavascript &&
                             <ul className='list-group m-2'>
-                                <li className='list-group-item m-1'>
+                                <li className='list-group-item m-4'>
                                     <h3>jQuery</h3>
                                 </li>
-                                <li className='list-group-item m-1'>
+                                <li className='list-group-item m-4'>
                                     <h3>React.js</h3>
                                 </li>
-                                <li className='list-group-item m-1'>
+                                <li className='list-group-item m-4'>
                                     <h3>Node.js</h3>
                                 </li>
                             </ul>
@@ -63,10 +63,10 @@ function Skill() {
                     <div className="text-light">
                         {showPython && 
                             <ul className='list-group m-2'>
-                                <li className='list-group-item m-1'>
+                                <li className='list-group-item m-4'>
                                     <h3>Django</h3>
                                 </li>
-                                <li className='list-group-item m-1'>
+                                <li className='list-group-item m-4'>
                                     <h3>PostreSQL</h3>
                                 </li>
                             </ul>
@@ -74,7 +74,7 @@ function Skill() {
                     </div>
                 </div>
             </div>
-            <div className='m-5'></div>
+            <div className='mt-5'></div>
             <Footer />
         </div>
     )
