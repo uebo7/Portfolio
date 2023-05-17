@@ -19,8 +19,8 @@ function About(props) {
             </div>
             <div className="row">
                 <div className="col-12 col-lg-4">
-                    <p className="text-light m-3">I moved into the development field to create a career out of something I am passionate about.
-                    I enjoy front end development and css design, and I am interested in fullstack developement.</p>
+                    <h5 className="text-light m-3">I moved into the development field to create a career out of something I am passionate about.
+                    I enjoy front end development and css design, and I am interested in fullstack developement.</h5>
                 </div>
                 <div className=' bg-dark col-12 col-lg-6'>
                     <img className='img-fluid ProfPic text-center' src={ProfPic} alt="Profile" />
