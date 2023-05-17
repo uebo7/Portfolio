@@ -14,7 +14,7 @@ function Nav(props) {
                         aria-label="Toggle Navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div className='container-fluid collapse navbar-collapse' id='navbarContent'>
+                    <div className=' collapse navbar-collapse' id='navbarContent'>
                         <ul className='nav'>
                             <li className='nav-item' aria-current="page">
                                 <Link to='/' className='nav-link active link-info'>
