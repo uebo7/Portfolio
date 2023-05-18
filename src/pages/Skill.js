@@ -12,7 +12,7 @@ function Skill() {
     return (
         <div className='container-fluid text-center bg-dark'>
             <Nav />
-            <h1 className='m-5 text-light bg-dark'>Skills</h1>
+            <h1 className='m-3 text-light bg-dark'>Skills</h1>
             <div className="row bg-dark">
                 <div className="col-12 col-md-3 mt-3">
                     <button className='btn btn-danger' onClick={() => setShowSkills(!showSkills)}>General</button>
